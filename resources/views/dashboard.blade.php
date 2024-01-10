@@ -184,7 +184,7 @@
                                             <div class="page-header-icon"><img src="{{asset('assets/img/stikes.png')}}" style=" height: 80px; width: 80px" alt=""></div>
                                             Dashboard
                                         </h1>
-                                        <div class="page-header-subtitle">Sistem Informasi Pembayaran STIKES Cirebon</div>
+                                        <div class="page-header-subtitle">Sistem Informasi Pembayaran Akademik STIKES Cirebon</div>
                                     </div>
                                     <div class="col-12 col-xl-auto mt-4">
                                         <div class="input-group input-group-joined border-0" style="width: 16.5rem">
