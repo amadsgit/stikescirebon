@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>STIKES Cirebon - Keuangan</title>
+        <title>Portal KSM Subang - STIKES Cirebon</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" rel="stylesheet" />
         <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet" />
@@ -24,7 +24,7 @@
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
             {{-- <img src="{{asset('assets/img/stikesdash.jpeg')}}" style=" height: 32px; width: 34px" alt=""> --}}
-            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="#">E-Payment STIKES Cirebon</a>
+            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="#">Portal KSM Subang - STIKES Cirebon</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
             {{-- <form class="form-inline me-auto d-none d-lg-block me-3 ml-12">
@@ -103,7 +103,7 @@
                             <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
                             Account
                         </a>
-                        <a class="dropdown-item" href="#!">
+                        <a class="dropdown-item" href="/">
                             <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                             Logout
                         </a>
@@ -184,7 +184,7 @@
                                             <div class="page-header-icon"><img src="{{asset('assets/img/stikes.png')}}" style=" height: 80px; width: 80px" alt=""></div>
                                             Dashboard
                                         </h1>
-                                        <div class="page-header-subtitle">Sistem Informasi Pembayaran Akademik STIKES Cirebon</div>
+                                        <div class="page-header-subtitle">Sistem Informasi Pembayaran Akademik Portal KSM Subang - STIKES Cirebon</div>
                                     </div>
                                     <div class="col-12 col-xl-auto mt-4">
                                         <div class="input-group input-group-joined border-0" style="width: 16.5rem">
@@ -209,7 +209,7 @@
                                                     <p class="text-gray-700 mb-0"></p>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-4 col-xxl-12 text-center"><img class="img-fluid" src="{{asset('assets/img/illustrations/at-work.svg')}}" style="max-width: 10rem" /></div>
+                                            <div class="col-xl-4 col-xxl-12 text-center"><img class="img-fluid" src="{{asset('assets/img/illustrations/at-work.svg')}}" style="max-width: 7rem" /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
                 <footer class="footer-admin mt-auto footer-light">
                     <div class="container-xl px-4">
                         <div class="row">
-                            <div class="col-md-6 small">Copyright &copy; pts-stikescirebon.ac.id 2023</div>
+                            <div class="col-md-6 small">Copyright &copy; Portal KSM Subang - STIKES Cirebon 2024</div>
                             <div class="col-md-6 text-md-end small">
                                 <a href="#!">Privacy Policy</a>
                                 &middot;
