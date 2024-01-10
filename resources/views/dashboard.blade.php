@@ -23,7 +23,7 @@
             <!-- * * Tip * * You can use text or an image for your navbar brand.-->
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-            <img src="{{asset('assets/img/stikesdash.jpeg')}}" style=" height: 32px; width: 34px" alt="">
+            {{-- <img src="{{asset('assets/img/stikesdash.jpeg')}}" style=" height: 32px; width: 34px" alt=""> --}}
             <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="#">E-Payment STIKES Cirebon</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
@@ -79,7 +79,7 @@
                         <a class="dropdown-item dropdown-notifications-item" href="#!">
                             <img class="dropdown-notifications-item-img" src="assets/img/illustrations/profiles/profile-2.png" />
                             <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboranim id est laborum.</div>
                                 <div class="dropdown-notifications-item-content-details">Thomas Wilcox · 58m</div>
                             </div>
                         </a>
@@ -181,7 +181,7 @@
                                 <div class="row align-items-center justify-content-between">
                                     <div class="col-auto mt-4">
                                         <h1 class="page-header-title">
-                                            <div class="page-header-icon"><i data-feather="activity"></i></div>
+                                            <div class="page-header-icon"><img src="{{asset('assets/img/stikes.png')}}" style=" height: 80px; width: 80px" alt=""></div>
                                             Dashboard
                                         </h1>
                                         <div class="page-header-subtitle">Sistem Informasi Pembayaran STIKES Cirebon</div>
@@ -209,7 +209,7 @@
                                                     <p class="text-gray-700 mb-0"></p>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-4 col-xxl-12 text-center"><img class="img-fluid" src="assets/img/illustrations/at-work.svg" style="max-width: 6rem" /></div>
+                                            <div class="col-xl-4 col-xxl-12 text-center"><img class="img-fluid" src="{{asset('assets/img/illustrations/at-work.svg')}}" style="max-width: 10rem" /></div>
                                         </div>
                                     </div>
                                 </div>
